@@ -1,0 +1,89 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "links main main" "links footer footer";
+    grid-gap: .5em;
+}
+
+body {
+    background-image: radial-gradient(#b3ecff, #0099cc);
+    padding-bottom: .5em;
+}
+
+#header {
+    background-color: #333333;
+    color: #DDDDDD;
+    text-align: center;
+    padding: .2em;
+}
+
+.content {
+    margin: .5em;
+    border: .2em solid #333333;
+    padding: .3em;
+    background-color: #cccccc;
+}
+
+.links {
+    grid-area: links;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main {
+    grid-area: main;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    grid-area: footer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headerText {
+    font-size: 1.65em;
+}
+
+#hLinks {
+    font-size: .9em;
+}
+
+.link {
+    color: #0073e6;
+}
+
+.link:hover {
+    color: #004d99;
+}
+
+.link:visited {
+    color: #3399ff;
+}
+
+table {
+    border: .25em solid #333333;
+    text-align: center;
+}
+
+#StudentOrg {
+    text-align: left;
+    float: left;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    border: .2em solid #222222;
+    padding: .25em;
+    background-color: #0059b3;
+    color: #DDDDDD;
+}
+
+td {
+    border: .15em solid #222222;
+    padding: .4em;
+    background-color: #8c8c8c;
+    color: #ffffff;
+}
