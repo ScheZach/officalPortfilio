@@ -8,7 +8,8 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="../css/home.css">
+<link rel="stylesheet" type="text/css" href="../css/bootExample.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -16,17 +17,17 @@
 
 <body>
 <div class="container-fluid w3-dark-grey" id="header">
-    <h1 class="headerText">Welcome to Zachary Scherer's Portfilio</h1>
+    <h1 class="headerText">Welcome to the Bootstrap 4 demo</h1>
     <p class="text-warning">This site is still in development</p>
 </div>
 <div id="hLinks" class="w3-bar w3-indigo barLink">
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">home</a>
+        <a href="../index.php" class="w3-bar-item w3-button w3-hover-blue w3-mobile">home</a>
         <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">placeholder</a>
         <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">placeholder</a>
         <div class="w3-dropdown-hover">
         <button class="w3-button w3-hover-blue">Bootstrap &#9660;</button>
         <div class="w3-dropdown-content w3-bar-block w3-border w3-hover-blue">
-          <a href="pages/bootstrapDemo.php" class="w3-bar-item w3-button w3-hover-blue">First example (In Development)</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-blue">First example (In Development)</a>
         </div>
 </div>
 </div>
@@ -41,18 +42,36 @@
 </div>
 <div class="main content">
     <div class="jumbotron">
-        <img id="headShot" src="img/Headshot1.jpg" alt="headShot"></img>
-        <h3>Hello my name is Zachary Scherer</h3>
-        <p>I am a Baylor Computer Science student working on my undergrade</p>
-        <p>I worked with: </p>
-        <ul>
-            <li>C++ (Baylor CSI 1430/1440)</li>
-            <li>HTML/CSS (Centennial High School CTE)</li>
-            <li>JavaScript/JQuery (Centennial High School CTE)</li>
-            <li>W3.css/Bootstrap 4 (Centennial High School CTE)</li>
-            <li>PHP (Centennial High School CTE)</li>
-            <li>SQL (Centennial High School CTE)</li>
+        <h3>Examples:</h3>
+        <div id="slides" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
         </ul>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="slideImg rounded img-fluid" src="../img/gazzelle.jpg" alt="gazzelle">
+            </div>
+            <div class="carousel-item">
+                <img class="slideImg img-fluid rounded-circle" src="../img/wildabeast.jpg" alt="wildabeast">
+            </div>
+            <div class="carousel-item">
+                <img class="slideImg img-fluid img-thumbnail" src="../img/zebra.jpg" alt="zebra">
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        </div>
+        <p>This carousel uses Bootstrap 4's carousel along with their rounded, rounded-circle, and
+             img-thumbnail styles</p>
     </div>
 </div>
 <div class="footer content">

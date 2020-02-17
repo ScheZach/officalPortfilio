@@ -38,21 +38,31 @@ body {
 .links {
     grid-area: links;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'PT Sans', sans-serif;
 }
 
 .main {
     grid-area: main;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: .5em;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .footer {
     grid-area: footer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1em;
 }
 
 .headerText {
-    font-size: 1.65em;
+    font-size: 1.85em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.barLink {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.8em;
 }
 
 #hLinks {

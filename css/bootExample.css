@@ -1,0 +1,15 @@
+#slides {
+    padding: .75em;
+    border: .25em solid #555555;
+    background-color: rgba(30, 30, 30, .2);
+    text-align: center;
+}
+
+.slideImg {
+    float: center;
+    border: .1em solid #000000;
+}
+
+p {
+    text-align: center;
+}
