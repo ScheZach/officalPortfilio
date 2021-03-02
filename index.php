@@ -20,13 +20,13 @@
     <p class="text-warning">This site is still in development</p>
 </div>
 <div id="hLinks" class="w3-bar w3-indigo barLink">
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">home</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">placeholder</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">placeholder</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Home</a>
+        <a href="pages/pageNotFound.php" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Major projects</a>
+        <a href="pages/pageNotFound.php" class="w3-bar-item w3-button w3-hover-blue w3-mobile">Style experiments</a>
         <div class="w3-dropdown-hover">
-        <button class="w3-button w3-hover-blue">Bootstrap &#9660;</button>
+        <button class="w3-button w3-hover-blue">Experiments &#9660;</button>
         <div class="w3-dropdown-content w3-bar-block w3-border w3-hover-blue">
-          <a href="pages/bootstrapDemo.php" class="w3-bar-item w3-button w3-hover-blue">First example (In Development)</a>
+          <a href="pages/bootstrapDemo.php" class="w3-bar-item w3-button w3-hover-blue">First Bootstrap example (In Development)</a>
         </div>
 </div>
 </div>

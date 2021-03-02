@@ -14,11 +14,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.1.0/umd/react.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.1.0/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
 </head>
 
 <body>
 <div class="container-fluid w3-dark-grey" id="header">
-    <h1 class="headerText">Welcome to the Bootstrap 4 demo</h1>
+    <h1 class="headerText">Welcome to the React JS demo</h1>
     <p class="text-warning">This site is still in development</p>
 </div>
 <div id="hLinks" class="w3-bar w3-indigo barLink">
@@ -42,44 +45,18 @@
     </ul>
 </div>
 <div class="main content">
-    <div class="jumbotron">
-        <h3>Examples:</h3>
-        <div id="slides" class="carousel slide" data-ride="carousel">
-
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="slideImg rounded img-fluid" src="../img/gazzelle.jpg" alt="gazzelle">
-            </div>
-            <div class="carousel-item">
-                <img class="slideImg img-fluid rounded-circle" src="../img/wildabeast.jpg" alt="wildabeast">
-            </div>
-            <div class="carousel-item">
-                <img class="slideImg img-fluid img-thumbnail" src="../img/zebra.jpg" alt="zebra">
-            </div>
-        </div>
-
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-        </div>
-        <p>This carousel uses Bootstrap 4's carousel along with their rounded, rounded-circle, and
-             img-thumbnail styles</p>
+    <h1>working?</h1>
+    <div id="reusableHeader">
+        
     </div>
 </div>
 <div class="footer content">
     <h4><b>Purpose of this page:</b></h4>
-    <p>The purpose of this page is use bootstrap features and see how they can mix together</p>
+    <p>The purpose of this page is to use react.js and see how they can mix together</p>
 </div>
 </div>
+
+<script src="reusableHeader.js"></script>
 
 </body>
 
