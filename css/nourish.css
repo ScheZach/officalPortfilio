@@ -1,0 +1,40 @@
+.smallGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: auto;
+    grid-template-areas: "info1 info2 info3";
+    grid-gap: .5em;
+}
+
+@media screen and (max-width: 40em) {
+    .smallGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "info1" "info2" "info3";
+        grid-gap: .5em;
+    }
+}
+
+.info1 {
+    grid-area: info1;
+}
+
+.info2 {
+    grid-area: info2;
+}
+
+.info3 {
+    grid-area: info3;
+}
+
+.gridArea {
+    margin: .5em;
+    border: .2em solid #bebaba;
+    background-color: rgb(12, 80, 88);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: .5em;
+    font-family: 'PT Sans', sans-serif;
+    color: #DDD;
+    text-align: center;
+}

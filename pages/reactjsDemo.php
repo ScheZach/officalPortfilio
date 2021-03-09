@@ -46,7 +46,7 @@
 </div>
 <div class="main content">
     <h1>working?</h1>
-    <div id="reusableHeader">
+    <div id="demoField">
         
     </div>
 </div>
@@ -56,7 +56,10 @@
 </div>
 </div>
 
-<script src="reusableHeader.js"></script>
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+<script src="demoField.js"></script>
 
 </body>
 
